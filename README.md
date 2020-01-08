@@ -2,7 +2,9 @@
 
 ## Live demo
 
-Coming soon
+[Demo](https://xw8iq.csb.app/)
+
+[Editor](https://codesandbox.io/s/react-quote-machine-xw8iq?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Run locally
 
