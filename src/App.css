@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Roboto&display=swap');
+
+body {
+  margin: 0;
+}
+
+body, .MuiButton-root {
+  transition: background-color 1s ease-out !important;
+}
+
+.MuiTypography-root {
+  transition: color 1s ease-out !important;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  background: white;
+  width: 500px;
+  padding: 3em;
+  border-radius: 10px;
+  box-shadow: 8px 8px 12px -6px rgba(0,0,0,0.8);
+}
+
+#author-container {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+#tweet-quote {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 6px 16px;
+}
+
+.MuiButton-root:first-of-type {
+  padding: 0;
+}
+
+#new-quote {
+  float: right;
+}
+
+#author {
+  font-family: Montserrat;
+}
+
+
+
+.MuiButton-containedPrimary {
+  font-size: 1.5rem !important;
+  height: 100% !important;
+}
+
+.MuiButton-label {
+  color: white !important;
+}
